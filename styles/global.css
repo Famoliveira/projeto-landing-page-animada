@@ -22,10 +22,11 @@
   --text-base: 1rem;
   --text-lg: 2.5rem;
   --text-xl: 4rem;
+  --fs-span: 0.75rem;
 }
 
 html, button {
-  font: 500 1rem/1.5 var(--ff-base);
+  font: 500 var(--text-base)/1.5 var(--ff-base);
 }
 
 h1, h2 {
@@ -40,4 +41,9 @@ h1 {
 h2 {
   font-size: var(--text-lg);
   line-height: 1.2;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }

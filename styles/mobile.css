@@ -1,5 +1,6 @@
 
 :root {
+  --text-lg: 1.5rem;
   --text-xl: 2rem;
 
   --bounce-1: -2.5rem;
@@ -8,7 +9,7 @@
 }
 
 
-header {
+header.top {
   padding-inline: 1.5rem;
   padding-block: 1.25rem;
 
@@ -66,4 +67,36 @@ section.hero {
 
 section.banner {
   padding-block: 1.5rem;
+}
+
+section.gallery {
+  padding-inline: 1.5rem;
+  padding-block: 1.5rem;
+  max-width: 26.5625rem;
+
+  & .content {
+    grid-template-areas: 
+    "A"
+    "B"
+    "C"
+    "D";
+
+    gap: 1.5rem;
+  }
+
+  & figure {
+
+    &[data-delay] {
+      animation-range: 100px 300px;
+    }
+
+    & > img {
+      height: 16rem;
+    }
+
+    & figcaption {
+      padding-block: 1rem;
+      padding-inline: 1.5rem;
+    }
+  }
 }

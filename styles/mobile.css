@@ -48,7 +48,6 @@ section.hero {
 
   &>div:nth-child(2) {
 
-    border: 1px solid red;
     width: 100%;
     height: calc(100vw - 3rem);
     margin-bottom: 1.5rem;

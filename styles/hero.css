@@ -53,6 +53,7 @@ section.hero {
       align-items: center;
       gap: 0.75rem;
       border-radius: 5rem;
+      text-transform: uppercase;
 
       transition-property: scale;
       transition-duration: 350ms;

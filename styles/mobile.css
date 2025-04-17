@@ -41,8 +41,17 @@ section.hero {
     height: 2.5rem;
   }
 
+  & .buttons {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 
   &>div:nth-child(2) {
+
+    border: 1px solid red;
+    width: 100%;
+    height: calc(100vw - 3rem);
+    margin-bottom: 1.5rem;
 
     & img[src*="stars-1"] {
       max-width: 3.5rem;

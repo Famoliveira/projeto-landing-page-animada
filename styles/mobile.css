@@ -100,3 +100,29 @@ section.gallery {
     }
   }
 }
+
+footer {
+  max-width: 26.5625rem;
+  padding: 3rem 1.5rem 1.5rem;
+
+  display: flex;
+  gap: 3rem;
+  flex-direction: column;
+  justify-content: auto;
+  align-items: flex-start;
+
+  & nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  & .social-links {
+    display: flex;
+
+    & a {
+      display: flex;
+      justify-content: flex-start;
+    }
+  }
+}

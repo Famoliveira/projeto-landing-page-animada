@@ -33,6 +33,10 @@ html, button {
   font: 500 var(--text-base)/1.5 var(--ff-base);
 }
 
+/* html	{
+  zoom: .7;
+} */
+
 h1, h2 {
   font-family: "Syne", sans-serif;
 }
@@ -50,4 +54,10 @@ h2 {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+img[src*="profile-pic"] {
+  border-radius: 50%;
+  width: 2rem;
+  aspect-ratio: 1/1;
 }

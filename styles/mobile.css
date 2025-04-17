@@ -63,3 +63,7 @@ section.hero {
     }
   }
 }
+
+section.banner {
+  padding-block: 1.5rem;
+}

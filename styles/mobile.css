@@ -1,4 +1,13 @@
 
+:root {
+  --text-xl: 2rem;
+
+  --bounce-1: -2.5rem;
+  --bounce-2: -5rem;
+  --bounce-3: -7.5rem;
+}
+
+
 header {
   padding-inline: 1.5rem;
   padding-block: 1.25rem;
@@ -22,6 +31,15 @@ section.hero {
   padding-inline: 1.5rem;
   padding-top: 1rem;
   padding-bottom: 3rem;
+
+  & h1 {
+    max-width: 19.5rem;
+    text-align: left;
+  }
+
+  & h1 div {
+    height: 2.5rem;
+  }
 
 
   &>div:nth-child(2) {

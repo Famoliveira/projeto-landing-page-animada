@@ -23,6 +23,10 @@
   --text-lg: 2.5rem;
   --text-xl: 4rem;
   --fs-span: 0.75rem;
+
+  --bounce-1: -5rem;
+  --bounce-2: -10rem;
+  --bounce-3: -15rem;
 }
 
 html, button {
